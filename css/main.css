@@ -16,6 +16,7 @@ html {
 	}
 }
 body {
+	background-color: #e7e7e7;
 	font-size: 1em;
 	line-height: 1.35;
 	font-family: Helvetica, sans-serif;
@@ -104,8 +105,38 @@ hr {
 .nav ul {
 	list-style: none;
 	padding-left: 0;
+	text-align: center;
 }
 .nav ul li {
 	margin-right: 20px;
 	display: inline-block;
+
+}
+
+.blog-post {
+	background-color: white;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+	padding: 15px;
+}
+
+.head-title {
+	margin: auto;
+}
+
+.title-projects {
+	text-align: center;
+}
+
+.title-page {
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	font-size: 100px;
+	border-bottom: solid black;
+	border-top: solid black;
+	box-sizing: border-box;
+	width: 50%;
+	margin: auto;
 }
