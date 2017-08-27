@@ -9,6 +9,8 @@
 }
 html {
 	font-size: 16px;
+	position: relative;
+  min-height: 100%;
 }
 @media (min-width:768px) {
 	html {
@@ -16,12 +18,12 @@ html {
 	}
 }
 body {
-	background-color: #e7e7e7;
+	background-color: #79a4d2;
+	font-family: 'Abril Fatface';
 	font-size: 1em;
 	line-height: 1.35;
-	font-family: Helvetica, sans-serif;
-  margin-top: 40px;
-  margin-bottom: 80px;
+	margin: 0 0 100px;
+	padding: 25px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -70,7 +72,7 @@ h2 {
   font-size: 1.1rem;
 }
 a {
-	color: #7E7E7E;
+	color: black;
 }
 ol li,
 ul li {
@@ -97,6 +99,7 @@ hr {
  */
 
 .nav {
+	border-bottom: solid black;
   margin-bottom: 40px;
 }
 .nav a {
@@ -105,7 +108,7 @@ hr {
 .nav ul {
 	list-style: none;
 	padding-left: 0;
-	text-align: center;
+	text-align: right;
 }
 .nav ul li {
 	margin-right: 20px;
@@ -113,31 +116,43 @@ hr {
 
 }
 
-.blog-post {
-	background-color: white;
-	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-	padding: 15px;
-	
+.name-title {
+	font-weight: bold;
+	font-size: 40px;
+	padding-left: 10px;
+	float: left;
+	position: relative;
+  top: 70%;
+  transform: translateY(-30%);
+
 }
 
 .head-title {
 	margin: auto;
 }
 
-.title-projects {
+.title-projects, .title-page {
 	text-align: center;
 }
 
-.title-page {
-	text-align: center;
+.blog-post {
+	background-color: white;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+	padding: 15px;
 }
 
-.title {
-	text-align: center;
-	font-size: 100px;
-	border-bottom: solid black;
+.footer {
+	position: absolute;
 	border-top: solid black;
-	box-sizing: border-box;
-	width: 50%;
-	margin: auto;
+	position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow:hidden;
+}
+
+.contact-form {
+	display: inline-block;
+	padding: 15px;
 }
