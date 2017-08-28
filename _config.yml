@@ -1,5 +1,8 @@
 # Site settings
 title: Site Title
+# Site configuration
+baseurl: "/bloc/code/jekyll-base-template" # the subpath of your site, e.g. /blog/
+url: "http://{MFNich}.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
