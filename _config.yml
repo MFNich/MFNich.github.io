@@ -4,3 +4,6 @@ title: Site Title
 # Build settings
 markdown: kramdown
 permalink: pretty
+# Scripts
+# #1
+google_analytics: "UA-105521326-1"
