@@ -1,7 +1,7 @@
 # Site settings
 title: Site Title
 # Site configuration
-url: "http://{MFNich}.github.io" # the base hostname & protocol for your site
+url: "http://mfnichols.com # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
